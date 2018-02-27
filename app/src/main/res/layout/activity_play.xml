@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ceisutb16.juegoahorcado.play">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="85dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="440dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="37dp"
+        android:text="ALEATORIO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/texto1"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:maxLength="1"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="346dp" />
+
+    <EditText
+        android:id="@+id/texto2"
+        android:layout_width="49dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:maxLength="1"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="346dp" />
+
+    <EditText
+        android:id="@+id/texto4"
+        android:layout_width="53dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:maxLength="1"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="239dp"
+        tools:layout_editor_absoluteY="346dp" />
+
+    <EditText
+        android:id="@+id/texto3"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:maxLength="1"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="346dp" />
+</android.support.constraint.ConstraintLayout>
